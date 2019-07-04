@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FC1C66022CDAD1500BA24F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC1C65F22CDAD1500BA24F5 /* AppDelegate.m */; };
+		8FC1C66322CDAD1500BA24F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC1C66222CDAD1500BA24F5 /* ViewController.m */; };
+		8FC1C66622CDAD1500BA24F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC1C66422CDAD1500BA24F5 /* Main.storyboard */; };
+		8FC1C66822CDAD1600BA24F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FC1C66722CDAD1600BA24F5 /* Assets.xcassets */; };
+		8FC1C66B22CDAD1600BA24F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC1C66922CDAD1600BA24F5 /* LaunchScreen.storyboard */; };
+		8FC1C66E22CDAD1600BA24F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC1C66D22CDAD1600BA24F5 /* main.m */; };
+		8FC1C67D22CDAE8200BA24F5 /* ABHTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC1C67922CDAE8100BA24F5 /* ABHTTP.m */; };
+		8FC1C67E22CDAE8200BA24F5 /* SPTechnicianModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC1C67C22CDAE8200BA24F5 /* SPTechnicianModel.m */; };
+		9EB42BE08B06B244900E56FC /* Pods_SpiderForLeanCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 353485BF3500670D1BE441BC /* Pods_SpiderForLeanCloud.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05D99A12480F17000567BF0F /* Pods-SpiderForLeanCloud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpiderForLeanCloud.debug.xcconfig"; path = "Target Support Files/Pods-SpiderForLeanCloud/Pods-SpiderForLeanCloud.debug.xcconfig"; sourceTree = "<group>"; };
+		353485BF3500670D1BE441BC /* Pods_SpiderForLeanCloud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpiderForLeanCloud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FC1C65B22CDAD1500BA24F5 /* SpiderForLeanCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpiderForLeanCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FC1C65E22CDAD1500BA24F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8FC1C65F22CDAD1500BA24F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8FC1C66122CDAD1500BA24F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8FC1C66222CDAD1500BA24F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8FC1C66522CDAD1500BA24F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FC1C66722CDAD1600BA24F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FC1C66A22CDAD1600BA24F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FC1C66C22CDAD1600BA24F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FC1C66D22CDAD1600BA24F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8FC1C67422CDAE3800BA24F5 /* SpiderForLeanCloud-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpiderForLeanCloud-Bridging-Header.h"; sourceTree = "<group>"; };
+		8FC1C67822CDAE8100BA24F5 /* ABHTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABHTTP.h; sourceTree = "<group>"; };
+		8FC1C67922CDAE8100BA24F5 /* ABHTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABHTTP.m; sourceTree = "<group>"; };
+		8FC1C67B22CDAE8200BA24F5 /* SPTechnicianModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTechnicianModel.h; sourceTree = "<group>"; };
+		8FC1C67C22CDAE8200BA24F5 /* SPTechnicianModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTechnicianModel.m; sourceTree = "<group>"; };
+		8FC1C67F22CDAF0800BA24F5 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FDA43CE7F9BD0B0F07F2886B /* Pods-SpiderForLeanCloud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpiderForLeanCloud.release.xcconfig"; path = "Target Support Files/Pods-SpiderForLeanCloud/Pods-SpiderForLeanCloud.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FC1C65822CDAD1500BA24F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EB42BE08B06B244900E56FC /* Pods_SpiderForLeanCloud.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3986E88DF27EFCCA89B834EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05D99A12480F17000567BF0F /* Pods-SpiderForLeanCloud.debug.xcconfig */,
+				FDA43CE7F9BD0B0F07F2886B /* Pods-SpiderForLeanCloud.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8FC1C65222CDAD1500BA24F5 = {
+			isa = PBXGroup;
+			children = (
+				8FC1C65D22CDAD1500BA24F5 /* SpiderForLeanCloud */,
+				8FC1C65C22CDAD1500BA24F5 /* Products */,
+				8FC1C67422CDAE3800BA24F5 /* SpiderForLeanCloud-Bridging-Header.h */,
+				3986E88DF27EFCCA89B834EB /* Pods */,
+				A61E6885591A6B5AC36A08BD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8FC1C65C22CDAD1500BA24F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FC1C65B22CDAD1500BA24F5 /* SpiderForLeanCloud.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FC1C65D22CDAD1500BA24F5 /* SpiderForLeanCloud */ = {
+			isa = PBXGroup;
+			children = (
+				8FC1C68022CDB14900BA24F5 /* Controller */,
+				8FC1C67722CDAE8100BA24F5 /* API */,
+				8FC1C67A22CDAE8200BA24F5 /* Model */,
+				8FC1C65E22CDAD1500BA24F5 /* AppDelegate.h */,
+				8FC1C65F22CDAD1500BA24F5 /* AppDelegate.m */,
+				8FC1C66722CDAD1600BA24F5 /* Assets.xcassets */,
+				8FC1C66922CDAD1600BA24F5 /* LaunchScreen.storyboard */,
+				8FC1C66C22CDAD1600BA24F5 /* Info.plist */,
+				8FC1C66D22CDAD1600BA24F5 /* main.m */,
+				8FC1C67F22CDAF0800BA24F5 /* PrefixHeader.pch */,
+			);
+			path = SpiderForLeanCloud;
+			sourceTree = "<group>";
+		};
+		8FC1C67722CDAE8100BA24F5 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				8FC1C67822CDAE8100BA24F5 /* ABHTTP.h */,
+				8FC1C67922CDAE8100BA24F5 /* ABHTTP.m */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		8FC1C67A22CDAE8200BA24F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8FC1C67B22CDAE8200BA24F5 /* SPTechnicianModel.h */,
+				8FC1C67C22CDAE8200BA24F5 /* SPTechnicianModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8FC1C68022CDB14900BA24F5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8FC1C66122CDAD1500BA24F5 /* ViewController.h */,
+				8FC1C66222CDAD1500BA24F5 /* ViewController.m */,
+				8FC1C66422CDAD1500BA24F5 /* Main.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A61E6885591A6B5AC36A08BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				353485BF3500670D1BE441BC /* Pods_SpiderForLeanCloud.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FC1C65A22CDAD1500BA24F5 /* SpiderForLeanCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FC1C67122CDAD1600BA24F5 /* Build configuration list for PBXNativeTarget "SpiderForLeanCloud" */;
+			buildPhases = (
+				4E4E2F8CF343E58A5883851C /* [CP] Check Pods Manifest.lock */,
+				8FC1C65722CDAD1500BA24F5 /* Sources */,
+				8FC1C65822CDAD1500BA24F5 /* Frameworks */,
+				8FC1C65922CDAD1500BA24F5 /* Resources */,
+				13F5864C53CA74BDA939A280 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpiderForLeanCloud;
+			productName = SpiderForLeanCloud;
+			productReference = 8FC1C65B22CDAD1500BA24F5 /* SpiderForLeanCloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FC1C65322CDAD1500BA24F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = scottban;
+				TargetAttributes = {
+					8FC1C65A22CDAD1500BA24F5 = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 8FC1C65622CDAD1500BA24F5 /* Build configuration list for PBXProject "SpiderForLeanCloud" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FC1C65222CDAD1500BA24F5;
+			productRefGroup = 8FC1C65C22CDAD1500BA24F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FC1C65A22CDAD1500BA24F5 /* SpiderForLeanCloud */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FC1C65922CDAD1500BA24F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FC1C66B22CDAD1600BA24F5 /* LaunchScreen.storyboard in Resources */,
+				8FC1C66822CDAD1600BA24F5 /* Assets.xcassets in Resources */,
+				8FC1C66622CDAD1500BA24F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13F5864C53CA74BDA939A280 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpiderForLeanCloud/Pods-SpiderForLeanCloud-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpiderForLeanCloud/Pods-SpiderForLeanCloud-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpiderForLeanCloud/Pods-SpiderForLeanCloud-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E4E2F8CF343E58A5883851C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpiderForLeanCloud-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FC1C65722CDAD1500BA24F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FC1C66322CDAD1500BA24F5 /* ViewController.m in Sources */,
+				8FC1C67E22CDAE8200BA24F5 /* SPTechnicianModel.m in Sources */,
+				8FC1C66E22CDAD1600BA24F5 /* main.m in Sources */,
+				8FC1C67D22CDAE8200BA24F5 /* ABHTTP.m in Sources */,
+				8FC1C66022CDAD1500BA24F5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8FC1C66422CDAD1500BA24F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FC1C66522CDAD1500BA24F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8FC1C66922CDAD1600BA24F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FC1C66A22CDAD1600BA24F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FC1C66F22CDAD1600BA24F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8FC1C67022CDAD1600BA24F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FC1C67222CDAD1600BA24F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05D99A12480F17000567BF0F /* Pods-SpiderForLeanCloud.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 336J5A22YK;
+				GCC_PREFIX_HEADER = SpiderForLeanCloud/PrefixHeader.pch;
+				INFOPLIST_FILE = SpiderForLeanCloud/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"icucore\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AVOSCloud\"",
+					"-framework",
+					"\"AddressBook\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"BDToolKit\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"FFToast\"",
+					"-framework",
+					"\"FMDB\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"LeanCloud\"",
+					"-framework",
+					"\"LeanCloudFeedback\"",
+					"-framework",
+					"\"MJRefresh\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"ReactiveObjC\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StandardHTTPResponse\"",
+					"-framework",
+					"\"Starscream\"",
+					"-framework",
+					"\"SwiftProtobuf\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"WebKit\"",
+					"-framework",
+					"\"YYModel\"",
+					"-framework",
+					"\"ZXToolbox\"",
+					"-weak_framework",
+					"\"Contacts\"",
+					"-weak_framework",
+					"\"CoreTelephony\"",
+					"-weak_framework",
+					"\"LocalAuthentication\"",
+					"-weak_framework",
+					"\"Photos\"",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.scottban.SpiderForLeanCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SpiderForLeanCloud-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8FC1C67322CDAD1600BA24F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDA43CE7F9BD0B0F07F2886B /* Pods-SpiderForLeanCloud.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 336J5A22YK;
+				GCC_PREFIX_HEADER = SpiderForLeanCloud/PrefixHeader.pch;
+				INFOPLIST_FILE = SpiderForLeanCloud/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"icucore\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AVOSCloud\"",
+					"-framework",
+					"\"AddressBook\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"BDToolKit\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"FFToast\"",
+					"-framework",
+					"\"FMDB\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"LeanCloud\"",
+					"-framework",
+					"\"LeanCloudFeedback\"",
+					"-framework",
+					"\"MJRefresh\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"ReactiveObjC\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StandardHTTPResponse\"",
+					"-framework",
+					"\"Starscream\"",
+					"-framework",
+					"\"SwiftProtobuf\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"WebKit\"",
+					"-framework",
+					"\"YYModel\"",
+					"-framework",
+					"\"ZXToolbox\"",
+					"-weak_framework",
+					"\"Contacts\"",
+					"-weak_framework",
+					"\"CoreTelephony\"",
+					"-weak_framework",
+					"\"LocalAuthentication\"",
+					"-weak_framework",
+					"\"Photos\"",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.scottban.SpiderForLeanCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SpiderForLeanCloud-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FC1C65622CDAD1500BA24F5 /* Build configuration list for PBXProject "SpiderForLeanCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FC1C66F22CDAD1600BA24F5 /* Debug */,
+				8FC1C67022CDAD1600BA24F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FC1C67122CDAD1600BA24F5 /* Build configuration list for PBXNativeTarget "SpiderForLeanCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FC1C67222CDAD1600BA24F5 /* Debug */,
+				8FC1C67322CDAD1600BA24F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FC1C65322CDAD1500BA24F5 /* Project object */;
+}
