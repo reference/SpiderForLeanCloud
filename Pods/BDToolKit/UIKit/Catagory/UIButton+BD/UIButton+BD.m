@@ -21,22 +21,17 @@
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  SOFTWARE.
  */
+#import "UIButton+BD.h"
 
-#import <UIKit/UIKit.h>
+@implementation UIButton(BD)
 
-@interface UIViewController(BD)
+- (void)addTarget:(nullable id)target action:(SEL)action forControlEvents:(UIControlEvents)controlEvents
+{
+    NSArray *actions = [self actionsForTarget:target forControlEvent:UIControlEventTouchUpInside];
 
-/// perform segue with class
-- (void)performSegueWithClass:(Class)cls sender:(id)sender;
-
-/// present navigation controller in storyboard
-- (void)presentNavigationViewController:(NSString *)navControllerName inStoryboard:(NSString *)storyboardName;
-
-/// push view controller
-- (void)pushViewControllerClass:(Class)cls inStoryboard:(NSString *)storyboardName;
-- (void)pushViewControllerClass:(Class)cls inStoryboard:(NSString *)storyboardName block:(void(^)(UIViewController *vc))block;
-
-/// innner rate app
-- (void)rateAppWithId:(NSString *)appId;
-
+    for (NSString *ac in actions) {
+        [self removeTarget:target action:NSSelectorFromString(ac) forControlEvents:controlEvents];
+    }
+    [super addTarget:target action:action forControlEvents:controlEvents];
+}
 @end

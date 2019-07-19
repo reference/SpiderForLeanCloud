@@ -55,6 +55,8 @@ SOFTWARE.
 #import "UIViewController+BD.h"
 #import "UITableViewController+BD.h"
 #import "UICollectionViewController+BD.h"
+#import "UIButton+BD.h"
+#import "UIView+Tap.h"
 
 
 //controllers
@@ -72,5 +74,6 @@ SOFTWARE.
 #import "NSURLProtocol+WKWebVIew.h"
 #import "NSArray+Identifier.h"
 #import "NSObject+Identifier.h"
+#import "NSMutableDictionary+BD.h"
 
 #endif /* BDToolKit_h */

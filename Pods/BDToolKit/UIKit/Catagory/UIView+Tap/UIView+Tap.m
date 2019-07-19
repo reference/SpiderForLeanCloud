@@ -21,22 +21,36 @@
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  SOFTWARE.
  */
+#import "UIView+Tap.h"
+#import <objc/runtime.h>
 
-#import <UIKit/UIKit.h>
+static const char *kTapGesture = "kTapGesture";
 
-@interface UIViewController(BD)
+@implementation UIView(Tap)
+@dynamic tapGestureBlock;
 
-/// perform segue with class
-- (void)performSegueWithClass:(Class)cls sender:(id)sender;
+- (BDTapGestureBlock)tapGestureBlock
+{
+    return objc_getAssociatedObject(self, kTapGesture);
+}
 
-/// present navigation controller in storyboard
-- (void)presentNavigationViewController:(NSString *)navControllerName inStoryboard:(NSString *)storyboardName;
+- (void)setTapGestureBlock:(BDTapGestureBlock)tapGestureBlock
+{
+    objc_setAssociatedObject(self, kTapGesture, tapGestureBlock, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
 
-/// push view controller
-- (void)pushViewControllerClass:(Class)cls inStoryboard:(NSString *)storyboardName;
-- (void)pushViewControllerClass:(Class)cls inStoryboard:(NSString *)storyboardName block:(void(^)(UIViewController *vc))block;
+- (void)addTapGesture:(BDTapGestureBlock)block
+{
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(onBDTapGesture:)];
+    self.tapGestureBlock = block;
+    [self addGestureRecognizer:tap];
+}
 
-/// innner rate app
-- (void)rateAppWithId:(NSString *)appId;
+- (void)onBDTapGesture:(UITapGestureRecognizer *)gesture
+{
+    if (self.tapGestureBlock) {
+        self.tapGestureBlock(gesture);
+    }
+}
 
 @end

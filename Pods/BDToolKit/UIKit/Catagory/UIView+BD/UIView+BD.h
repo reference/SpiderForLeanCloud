@@ -23,13 +23,8 @@
  */
 
 #import <UIKit/UIKit.h>
-//#import <QuartzCore/QuartCore.h>
 
 @interface UIView(BD)
-
-//@property (nonatomic,assign) IBInspectable NSInteger cornerRadius;
-//@property (nonatomic,assign) IBInspectable NSInteger borderWidth;
-//@property (nonatomic,assign) IBInspectable UIColor  *borderColor;
 
 /**
  *  设置部分圆角(绝对布局)
@@ -51,12 +46,27 @@
                  viewRect:(CGRect)rect;
 
 /**
- 渐变色组，用逗号分隔
+ *  设置圆角
+ *
+ *  @param cornerRadius 圆角大小
  */
-@property (nonatomic,strong) IBInspectable NSArray *gradientHexColors;
+@property (nonatomic, assign) IBInspectable CGFloat cornerRadius;
 /**
- 渐变色位置，用逗号分隔
+ *  是否裁剪子视图
+ *
+ *  @param cornerRadius YES 裁剪 -- NO 不裁剪
  */
-@property (nonatomic,strong) IBInspectable NSArray *gradientLocations;
-
+@property (nonatomic, assign) IBInspectable BOOL masksToBounds;
+/**
+ *  设置边框宽度
+ *
+ *  @param borderWidth 边框宽度
+ */
+@property (nonatomic, assign) IBInspectable CGFloat borderWidth;
+/**
+ *  设置边框颜色
+ *
+ *  @param borderColor 边框颜色
+ */
+@property (nonatomic, strong) IBInspectable UIColor *borderColor;
 @end

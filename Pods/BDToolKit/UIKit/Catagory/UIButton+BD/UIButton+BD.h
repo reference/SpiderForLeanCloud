@@ -21,22 +21,11 @@
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  SOFTWARE.
  */
+#import <Foundation/Foundation.h>
 
-#import <UIKit/UIKit.h>
+@interface UIButton(BD)
 
-@interface UIViewController(BD)
-
-/// perform segue with class
-- (void)performSegueWithClass:(Class)cls sender:(id)sender;
-
-/// present navigation controller in storyboard
-- (void)presentNavigationViewController:(NSString *)navControllerName inStoryboard:(NSString *)storyboardName;
-
-/// push view controller
-- (void)pushViewControllerClass:(Class)cls inStoryboard:(NSString *)storyboardName;
-- (void)pushViewControllerClass:(Class)cls inStoryboard:(NSString *)storyboardName block:(void(^)(UIViewController *vc))block;
-
-/// innner rate app
-- (void)rateAppWithId:(NSString *)appId;
+/// rewrite
+- (void)addTarget:(nullable id)target action:(SEL )action forControlEvents:(UIControlEvents)controlEvents;
 
 @end

@@ -16,72 +16,78 @@ PODS:
     - AFNetworking/NSURLSession
   - Alamofire (4.8.2)
   - AVOSCloud (11.6.3)
-  - BDToolKit (1.7.7):
-    - BDToolKit/BDAudioPlayer (= 1.7.7)
-    - BDToolKit/BDButton (= 1.7.7)
-    - BDToolKit/BDCollectionViewCell (= 1.7.7)
-    - BDToolKit/BDCollectionViewController (= 1.7.7)
-    - BDToolKit/BDFreeStyleButton (= 1.7.7)
-    - BDToolKit/BDImageView (= 1.7.7)
-    - BDToolKit/BDLabel (= 1.7.7)
-    - BDToolKit/BDModel (= 1.7.7)
-    - BDToolKit/BDSegmentView (= 1.7.7)
-    - BDToolKit/BDTableViewCell (= 1.7.7)
-    - BDToolKit/BDTableViewController (= 1.7.7)
-    - BDToolKit/BDView (= 1.7.7)
-    - BDToolKit/BDViewController (= 1.7.7)
-    - "BDToolKit/NSArray+BDUIKIT (= 1.7.7)"
-    - "BDToolKit/NSArray+Identifier (= 1.7.7)"
-    - "BDToolKit/NSDate+BD (= 1.7.7)"
-    - "BDToolKit/NSNumber+NumerFormat (= 1.7.7)"
-    - "BDToolKit/NSObject+BD (= 1.7.7)"
-    - "BDToolKit/NSObject+Identifier (= 1.7.7)"
-    - "BDToolKit/NSString+BD (= 1.7.7)"
-    - "BDToolKit/NSURLProtocol+WKWebVIew (= 1.7.7)"
-    - "BDToolKit/UICollectionViewController+BD (= 1.7.7)"
-    - "BDToolKit/UILabel+BD (= 1.7.7)"
-    - "BDToolKit/UILabel+NSNumberFormat (= 1.7.7)"
-    - "BDToolKit/UITableViewController+BD (= 1.7.7)"
-    - "BDToolKit/UITextField+BD (= 1.7.7)"
-    - "BDToolKit/UITextView+BD (= 1.7.7)"
-    - "BDToolKit/UIView+BD (= 1.7.7)"
-    - "BDToolKit/UIView+BDAnimation (= 1.7.7)"
-    - "BDToolKit/UIView+BDCDS (= 1.7.7)"
-    - "BDToolKit/UIView+Tag (= 1.7.7)"
-    - "BDToolKit/UIViewController+BD (= 1.7.7)"
-  - BDToolKit/BDAudioPlayer (1.7.7)
-  - BDToolKit/BDButton (1.7.7)
-  - BDToolKit/BDCollectionViewCell (1.7.7)
-  - BDToolKit/BDCollectionViewController (1.7.7)
-  - BDToolKit/BDFreeStyleButton (1.7.7):
+  - BDToolKit (1.8.5):
+    - BDToolKit/BDAudioPlayer (= 1.8.5)
+    - BDToolKit/BDButton (= 1.8.5)
+    - BDToolKit/BDCollectionViewCell (= 1.8.5)
+    - BDToolKit/BDCollectionViewController (= 1.8.5)
+    - BDToolKit/BDFreeStyleButton (= 1.8.5)
+    - BDToolKit/BDImageView (= 1.8.5)
+    - BDToolKit/BDLabel (= 1.8.5)
+    - BDToolKit/BDModel (= 1.8.5)
+    - BDToolKit/BDSegmentView (= 1.8.5)
+    - BDToolKit/BDTableViewCell (= 1.8.5)
+    - BDToolKit/BDTableViewController (= 1.8.5)
+    - BDToolKit/BDView (= 1.8.5)
+    - BDToolKit/BDViewController (= 1.8.5)
+    - "BDToolKit/NSArray+BDUIKIT (= 1.8.5)"
+    - "BDToolKit/NSArray+Identifier (= 1.8.5)"
+    - "BDToolKit/NSDate+BD (= 1.8.5)"
+    - "BDToolKit/NSMutableDictionary+BD (= 1.8.5)"
+    - "BDToolKit/NSNumber+NumerFormat (= 1.8.5)"
+    - "BDToolKit/NSObject+BD (= 1.8.5)"
+    - "BDToolKit/NSObject+Identifier (= 1.8.5)"
+    - "BDToolKit/NSString+BD (= 1.8.5)"
+    - "BDToolKit/NSURLProtocol+WKWebVIew (= 1.8.5)"
+    - "BDToolKit/UIButton+BD (= 1.8.5)"
+    - "BDToolKit/UICollectionViewController+BD (= 1.8.5)"
+    - "BDToolKit/UILabel+BD (= 1.8.5)"
+    - "BDToolKit/UILabel+NSNumberFormat (= 1.8.5)"
+    - "BDToolKit/UITableViewController+BD (= 1.8.5)"
+    - "BDToolKit/UITextField+BD (= 1.8.5)"
+    - "BDToolKit/UITextView+BD (= 1.8.5)"
+    - "BDToolKit/UIView+BD (= 1.8.5)"
+    - "BDToolKit/UIView+BDAnimation (= 1.8.5)"
+    - "BDToolKit/UIView+BDCDS (= 1.8.5)"
+    - "BDToolKit/UIView+Tag (= 1.8.5)"
+    - "BDToolKit/UIView+Tap (= 1.8.5)"
+    - "BDToolKit/UIViewController+BD (= 1.8.5)"
+  - BDToolKit/BDAudioPlayer (1.8.5)
+  - BDToolKit/BDButton (1.8.5)
+  - BDToolKit/BDCollectionViewCell (1.8.5)
+  - BDToolKit/BDCollectionViewController (1.8.5)
+  - BDToolKit/BDFreeStyleButton (1.8.5):
     - BDToolKit/BDView
-  - BDToolKit/BDImageView (1.7.7)
-  - BDToolKit/BDLabel (1.7.7)
-  - BDToolKit/BDModel (1.7.7)
-  - BDToolKit/BDSegmentView (1.7.7)
-  - BDToolKit/BDTableViewCell (1.7.7)
-  - BDToolKit/BDTableViewController (1.7.7)
-  - BDToolKit/BDView (1.7.7)
-  - BDToolKit/BDViewController (1.7.7)
-  - "BDToolKit/NSArray+BDUIKIT (1.7.7)"
-  - "BDToolKit/NSArray+Identifier (1.7.7)"
-  - "BDToolKit/NSDate+BD (1.7.7)"
-  - "BDToolKit/NSNumber+NumerFormat (1.7.7)"
-  - "BDToolKit/NSObject+BD (1.7.7)"
-  - "BDToolKit/NSObject+Identifier (1.7.7)"
-  - "BDToolKit/NSString+BD (1.7.7)"
-  - "BDToolKit/NSURLProtocol+WKWebVIew (1.7.7)"
-  - "BDToolKit/UICollectionViewController+BD (1.7.7)"
-  - "BDToolKit/UILabel+BD (1.7.7)"
-  - "BDToolKit/UILabel+NSNumberFormat (1.7.7)"
-  - "BDToolKit/UITableViewController+BD (1.7.7)"
-  - "BDToolKit/UITextField+BD (1.7.7)"
-  - "BDToolKit/UITextView+BD (1.7.7)"
-  - "BDToolKit/UIView+BD (1.7.7)"
-  - "BDToolKit/UIView+BDAnimation (1.7.7)"
-  - "BDToolKit/UIView+BDCDS (1.7.7)"
-  - "BDToolKit/UIView+Tag (1.7.7)"
-  - "BDToolKit/UIViewController+BD (1.7.7)"
+  - BDToolKit/BDImageView (1.8.5)
+  - BDToolKit/BDLabel (1.8.5)
+  - BDToolKit/BDModel (1.8.5)
+  - BDToolKit/BDSegmentView (1.8.5)
+  - BDToolKit/BDTableViewCell (1.8.5)
+  - BDToolKit/BDTableViewController (1.8.5)
+  - BDToolKit/BDView (1.8.5)
+  - BDToolKit/BDViewController (1.8.5)
+  - "BDToolKit/NSArray+BDUIKIT (1.8.5)"
+  - "BDToolKit/NSArray+Identifier (1.8.5)"
+  - "BDToolKit/NSDate+BD (1.8.5)"
+  - "BDToolKit/NSMutableDictionary+BD (1.8.5)"
+  - "BDToolKit/NSNumber+NumerFormat (1.8.5)"
+  - "BDToolKit/NSObject+BD (1.8.5)"
+  - "BDToolKit/NSObject+Identifier (1.8.5)"
+  - "BDToolKit/NSString+BD (1.8.5)"
+  - "BDToolKit/NSURLProtocol+WKWebVIew (1.8.5)"
+  - "BDToolKit/UIButton+BD (1.8.5)"
+  - "BDToolKit/UICollectionViewController+BD (1.8.5)"
+  - "BDToolKit/UILabel+BD (1.8.5)"
+  - "BDToolKit/UILabel+NSNumberFormat (1.8.5)"
+  - "BDToolKit/UITableViewController+BD (1.8.5)"
+  - "BDToolKit/UITextField+BD (1.8.5)"
+  - "BDToolKit/UITextView+BD (1.8.5)"
+  - "BDToolKit/UIView+BD (1.8.5)"
+  - "BDToolKit/UIView+BDAnimation (1.8.5)"
+  - "BDToolKit/UIView+BDCDS (1.8.5)"
+  - "BDToolKit/UIView+Tag (1.8.5)"
+  - "BDToolKit/UIView+Tap (1.8.5)"
+  - "BDToolKit/UIViewController+BD (1.8.5)"
   - FFToast (1.2.0)
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
@@ -108,135 +114,135 @@ PODS:
   - Starscream (3.1.0)
   - SwiftProtobuf (1.5.0)
   - YYModel (1.0.4)
-  - ZXToolbox (2.0.6):
-    - ZXToolbox/Base64Encoding (= 2.0.6)
-    - ZXToolbox/JSONObject (= 2.0.6)
-    - "ZXToolbox/NSArray+ZXToolbox (= 2.0.6)"
-    - "ZXToolbox/NSDate+ZXToolbox (= 2.0.6)"
-    - "ZXToolbox/NSFileManager+ZXToolbox (= 2.0.6)"
-    - "ZXToolbox/NSNumberFormatter+ZXToolbox (= 2.0.6)"
-    - "ZXToolbox/NSObject+ZXToolbox (= 2.0.6)"
-    - "ZXToolbox/NSString+NumberValue (= 2.0.6)"
-    - "ZXToolbox/NSString+Pinyin (= 2.0.6)"
-    - "ZXToolbox/NSString+Unicode (= 2.0.6)"
-    - "ZXToolbox/NSString+URLEncoding (= 2.0.6)"
-    - "ZXToolbox/UIApplication+ZXToolbox (= 2.0.6)"
-    - ZXToolbox/UIApplicationIdleTimer (= 2.0.6)
-    - "ZXToolbox/UIButton+ZXToolbox (= 2.0.6)"
-    - "ZXToolbox/UIColor+ZXToolbox (= 2.0.6)"
-    - "ZXToolbox/UIImage+ZXToolbox (= 2.0.6)"
-    - ZXToolbox/UINetworkActivityIndicator (= 2.0.6)
-    - "ZXToolbox/UIScreen+ZXToolbox (= 2.0.6)"
-    - "ZXToolbox/UIScrollView+ZXToolbox (= 2.0.6)"
-    - "ZXToolbox/UITableViewCell+Separator (= 2.0.6)"
-    - "ZXToolbox/UITextField+ZXToolbox (= 2.0.6)"
-    - "ZXToolbox/UIView+ZXToolbox (= 2.0.6)"
-    - "ZXToolbox/UIViewController+ZXToolbox (= 2.0.6)"
-    - ZXToolbox/ZXAlertView (= 2.0.6)
-    - ZXToolbox/ZXAudioDevice (= 2.0.6)
-    - ZXToolbox/ZXAuthorizationHelper (= 2.0.6)
-    - ZXToolbox/ZXBadgeLabel (= 2.0.6)
-    - ZXToolbox/ZXBrightnessView (= 2.0.6)
-    - ZXToolbox/ZXCircularProgressView (= 2.0.6)
-    - ZXToolbox/ZXCommonCrypto (= 2.0.6)
-    - ZXToolbox/ZXDownloadManager (= 2.0.6)
-    - ZXToolbox/ZXDrawingView (= 2.0.6)
-    - ZXToolbox/ZXHaloLabel (= 2.0.6)
-    - ZXToolbox/ZXHTTPClient (= 2.0.6)
-    - ZXToolbox/ZXLineChartView (= 2.0.6)
-    - ZXToolbox/ZXLocalAuthentication (= 2.0.6)
-    - ZXToolbox/ZXLocationManager (= 2.0.6)
-    - ZXToolbox/ZXNavigationController (= 2.0.6)
-    - ZXToolbox/ZXNetworkTrafficMonitor (= 2.0.6)
-    - ZXToolbox/ZXPageIndicatorView (= 2.0.6)
-    - ZXToolbox/ZXPageView (= 2.0.6)
-    - ZXToolbox/ZXPhotoLibrary (= 2.0.6)
-    - ZXToolbox/ZXPlayerViewController (= 2.0.6)
-    - ZXToolbox/ZXPopoverView (= 2.0.6)
-    - ZXToolbox/ZXPopoverWindow (= 2.0.6)
-    - ZXToolbox/ZXQRCodeGenerator (= 2.0.6)
-    - ZXToolbox/ZXQRCodeReader (= 2.0.6)
-    - ZXToolbox/ZXQRCodeScanner (= 2.0.6)
-    - ZXToolbox/ZXScriptMessageHandler (= 2.0.6)
-    - ZXToolbox/ZXScrollLabel (= 2.0.6)
-    - ZXToolbox/ZXStackView (= 2.0.6)
-    - ZXToolbox/ZXTabBar (= 2.0.6)
-    - ZXToolbox/ZXTabBarController (= 2.0.6)
-    - ZXToolbox/ZXTagView (= 2.0.6)
-    - ZXToolbox/ZXTimer (= 2.0.6)
-    - ZXToolbox/ZXToastView (= 2.0.6)
-    - "ZXToolbox/ZXToolbox+Macros (= 2.0.6)"
-    - ZXToolbox/ZXURLProtocol (= 2.0.6)
-    - ZXToolbox/ZXURLSession (= 2.0.6)
-  - ZXToolbox/Base64Encoding (2.0.6)
-  - ZXToolbox/JSONObject (2.0.6)
-  - "ZXToolbox/NSArray+ZXToolbox (2.0.6)"
-  - "ZXToolbox/NSDate+ZXToolbox (2.0.6)"
-  - "ZXToolbox/NSFileManager+ZXToolbox (2.0.6)"
-  - "ZXToolbox/NSNumberFormatter+ZXToolbox (2.0.6)"
-  - "ZXToolbox/NSObject+ZXToolbox (2.0.6)"
-  - "ZXToolbox/NSString+NumberValue (2.0.6)"
-  - "ZXToolbox/NSString+Pinyin (2.0.6)"
-  - "ZXToolbox/NSString+Unicode (2.0.6)":
+  - ZXToolbox (2.0.7):
+    - ZXToolbox/Base64Encoding (= 2.0.7)
+    - ZXToolbox/JSONObject (= 2.0.7)
+    - "ZXToolbox/NSArray+ZXToolbox (= 2.0.7)"
+    - "ZXToolbox/NSDate+ZXToolbox (= 2.0.7)"
+    - "ZXToolbox/NSFileManager+ZXToolbox (= 2.0.7)"
+    - "ZXToolbox/NSNumberFormatter+ZXToolbox (= 2.0.7)"
+    - "ZXToolbox/NSObject+ZXToolbox (= 2.0.7)"
+    - "ZXToolbox/NSString+NumberValue (= 2.0.7)"
+    - "ZXToolbox/NSString+Pinyin (= 2.0.7)"
+    - "ZXToolbox/NSString+Unicode (= 2.0.7)"
+    - "ZXToolbox/NSString+URLEncoding (= 2.0.7)"
+    - "ZXToolbox/UIApplication+ZXToolbox (= 2.0.7)"
+    - ZXToolbox/UIApplicationIdleTimer (= 2.0.7)
+    - "ZXToolbox/UIButton+ZXToolbox (= 2.0.7)"
+    - "ZXToolbox/UIColor+ZXToolbox (= 2.0.7)"
+    - "ZXToolbox/UIImage+ZXToolbox (= 2.0.7)"
+    - ZXToolbox/UINetworkActivityIndicator (= 2.0.7)
+    - "ZXToolbox/UIScreen+ZXToolbox (= 2.0.7)"
+    - "ZXToolbox/UIScrollView+ZXToolbox (= 2.0.7)"
+    - "ZXToolbox/UITableViewCell+Separator (= 2.0.7)"
+    - "ZXToolbox/UITextField+ZXToolbox (= 2.0.7)"
+    - "ZXToolbox/UIView+ZXToolbox (= 2.0.7)"
+    - "ZXToolbox/UIViewController+ZXToolbox (= 2.0.7)"
+    - ZXToolbox/ZXAlertView (= 2.0.7)
+    - ZXToolbox/ZXAudioDevice (= 2.0.7)
+    - ZXToolbox/ZXAuthorizationHelper (= 2.0.7)
+    - ZXToolbox/ZXBadgeLabel (= 2.0.7)
+    - ZXToolbox/ZXBrightnessView (= 2.0.7)
+    - ZXToolbox/ZXCircularProgressView (= 2.0.7)
+    - ZXToolbox/ZXCommonCrypto (= 2.0.7)
+    - ZXToolbox/ZXDownloadManager (= 2.0.7)
+    - ZXToolbox/ZXDrawingView (= 2.0.7)
+    - ZXToolbox/ZXHaloLabel (= 2.0.7)
+    - ZXToolbox/ZXHTTPClient (= 2.0.7)
+    - ZXToolbox/ZXLineChartView (= 2.0.7)
+    - ZXToolbox/ZXLocalAuthentication (= 2.0.7)
+    - ZXToolbox/ZXLocationManager (= 2.0.7)
+    - ZXToolbox/ZXNavigationController (= 2.0.7)
+    - ZXToolbox/ZXNetworkTrafficMonitor (= 2.0.7)
+    - ZXToolbox/ZXPageIndicatorView (= 2.0.7)
+    - ZXToolbox/ZXPageView (= 2.0.7)
+    - ZXToolbox/ZXPhotoLibrary (= 2.0.7)
+    - ZXToolbox/ZXPlayerViewController (= 2.0.7)
+    - ZXToolbox/ZXPopoverView (= 2.0.7)
+    - ZXToolbox/ZXPopoverWindow (= 2.0.7)
+    - ZXToolbox/ZXQRCodeGenerator (= 2.0.7)
+    - ZXToolbox/ZXQRCodeReader (= 2.0.7)
+    - ZXToolbox/ZXQRCodeScanner (= 2.0.7)
+    - ZXToolbox/ZXScriptMessageHandler (= 2.0.7)
+    - ZXToolbox/ZXScrollLabel (= 2.0.7)
+    - ZXToolbox/ZXStackView (= 2.0.7)
+    - ZXToolbox/ZXTabBar (= 2.0.7)
+    - ZXToolbox/ZXTabBarController (= 2.0.7)
+    - ZXToolbox/ZXTagView (= 2.0.7)
+    - ZXToolbox/ZXTimer (= 2.0.7)
+    - ZXToolbox/ZXToastView (= 2.0.7)
+    - "ZXToolbox/ZXToolbox+Macros (= 2.0.7)"
+    - ZXToolbox/ZXURLProtocol (= 2.0.7)
+    - ZXToolbox/ZXURLSession (= 2.0.7)
+  - ZXToolbox/Base64Encoding (2.0.7)
+  - ZXToolbox/JSONObject (2.0.7)
+  - "ZXToolbox/NSArray+ZXToolbox (2.0.7)"
+  - "ZXToolbox/NSDate+ZXToolbox (2.0.7)"
+  - "ZXToolbox/NSFileManager+ZXToolbox (2.0.7)"
+  - "ZXToolbox/NSNumberFormatter+ZXToolbox (2.0.7)"
+  - "ZXToolbox/NSObject+ZXToolbox (2.0.7)"
+  - "ZXToolbox/NSString+NumberValue (2.0.7)"
+  - "ZXToolbox/NSString+Pinyin (2.0.7)"
+  - "ZXToolbox/NSString+Unicode (2.0.7)":
     - "ZXToolbox/NSObject+ZXToolbox"
-  - "ZXToolbox/NSString+URLEncoding (2.0.6)"
-  - "ZXToolbox/UIApplication+ZXToolbox (2.0.6)"
-  - ZXToolbox/UIApplicationIdleTimer (2.0.6)
-  - "ZXToolbox/UIButton+ZXToolbox (2.0.6)"
-  - "ZXToolbox/UIColor+ZXToolbox (2.0.6)"
-  - "ZXToolbox/UIImage+ZXToolbox (2.0.6)"
-  - ZXToolbox/UINetworkActivityIndicator (2.0.6)
-  - "ZXToolbox/UIScreen+ZXToolbox (2.0.6)"
-  - "ZXToolbox/UIScrollView+ZXToolbox (2.0.6)"
-  - "ZXToolbox/UITableViewCell+Separator (2.0.6)"
-  - "ZXToolbox/UITextField+ZXToolbox (2.0.6)":
+  - "ZXToolbox/NSString+URLEncoding (2.0.7)"
+  - "ZXToolbox/UIApplication+ZXToolbox (2.0.7)"
+  - ZXToolbox/UIApplicationIdleTimer (2.0.7)
+  - "ZXToolbox/UIButton+ZXToolbox (2.0.7)"
+  - "ZXToolbox/UIColor+ZXToolbox (2.0.7)"
+  - "ZXToolbox/UIImage+ZXToolbox (2.0.7)"
+  - ZXToolbox/UINetworkActivityIndicator (2.0.7)
+  - "ZXToolbox/UIScreen+ZXToolbox (2.0.7)"
+  - "ZXToolbox/UIScrollView+ZXToolbox (2.0.7)"
+  - "ZXToolbox/UITableViewCell+Separator (2.0.7)"
+  - "ZXToolbox/UITextField+ZXToolbox (2.0.7)":
     - "ZXToolbox/NSObject+ZXToolbox"
-  - "ZXToolbox/UIView+ZXToolbox (2.0.6)":
+  - "ZXToolbox/UIView+ZXToolbox (2.0.7)":
     - "ZXToolbox/NSObject+ZXToolbox"
-  - "ZXToolbox/UIViewController+ZXToolbox (2.0.6)"
-  - ZXToolbox/ZXAlertView (2.0.6)
-  - ZXToolbox/ZXAudioDevice (2.0.6)
-  - ZXToolbox/ZXAuthorizationHelper (2.0.6)
-  - ZXToolbox/ZXBadgeLabel (2.0.6)
-  - ZXToolbox/ZXBrightnessView (2.0.6):
+  - "ZXToolbox/UIViewController+ZXToolbox (2.0.7)"
+  - ZXToolbox/ZXAlertView (2.0.7)
+  - ZXToolbox/ZXAudioDevice (2.0.7)
+  - ZXToolbox/ZXAuthorizationHelper (2.0.7)
+  - ZXToolbox/ZXBadgeLabel (2.0.7)
+  - ZXToolbox/ZXBrightnessView (2.0.7):
     - "ZXToolbox/UIColor+ZXToolbox"
-  - ZXToolbox/ZXCircularProgressView (2.0.6)
-  - ZXToolbox/ZXCommonCrypto (2.0.6)
-  - ZXToolbox/ZXDownloadManager (2.0.6):
+  - ZXToolbox/ZXCircularProgressView (2.0.7)
+  - ZXToolbox/ZXCommonCrypto (2.0.7)
+  - ZXToolbox/ZXDownloadManager (2.0.7):
     - ZXToolbox/ZXCommonCrypto
-  - ZXToolbox/ZXDrawingView (2.0.6)
-  - ZXToolbox/ZXHaloLabel (2.0.6)
-  - ZXToolbox/ZXHTTPClient (2.0.6)
-  - ZXToolbox/ZXLineChartView (2.0.6)
-  - ZXToolbox/ZXLocalAuthentication (2.0.6)
-  - ZXToolbox/ZXLocationManager (2.0.6)
-  - ZXToolbox/ZXNavigationController (2.0.6)
-  - ZXToolbox/ZXNetworkTrafficMonitor (2.0.6)
-  - ZXToolbox/ZXPageIndicatorView (2.0.6)
-  - ZXToolbox/ZXPageView (2.0.6):
+  - ZXToolbox/ZXDrawingView (2.0.7)
+  - ZXToolbox/ZXHaloLabel (2.0.7)
+  - ZXToolbox/ZXHTTPClient (2.0.7)
+  - ZXToolbox/ZXLineChartView (2.0.7)
+  - ZXToolbox/ZXLocalAuthentication (2.0.7)
+  - ZXToolbox/ZXLocationManager (2.0.7)
+  - ZXToolbox/ZXNavigationController (2.0.7)
+  - ZXToolbox/ZXNetworkTrafficMonitor (2.0.7)
+  - ZXToolbox/ZXPageIndicatorView (2.0.7)
+  - ZXToolbox/ZXPageView (2.0.7):
     - ZXToolbox/ZXTimer
-  - ZXToolbox/ZXPhotoLibrary (2.0.6)
-  - ZXToolbox/ZXPlayerViewController (2.0.6):
+  - ZXToolbox/ZXPhotoLibrary (2.0.7)
+  - ZXToolbox/ZXPlayerViewController (2.0.7):
     - "ZXToolbox/NSObject+ZXToolbox"
     - "ZXToolbox/UIViewController+ZXToolbox"
     - ZXToolbox/ZXBrightnessView
-  - ZXToolbox/ZXPopoverView (2.0.6)
-  - ZXToolbox/ZXPopoverWindow (2.0.6)
-  - ZXToolbox/ZXQRCodeGenerator (2.0.6)
-  - ZXToolbox/ZXQRCodeReader (2.0.6)
-  - ZXToolbox/ZXQRCodeScanner (2.0.6)
-  - ZXToolbox/ZXScriptMessageHandler (2.0.6)
-  - ZXToolbox/ZXScrollLabel (2.0.6)
-  - ZXToolbox/ZXStackView (2.0.6)
-  - ZXToolbox/ZXTabBar (2.0.6)
-  - ZXToolbox/ZXTabBarController (2.0.6)
-  - ZXToolbox/ZXTagView (2.0.6)
-  - ZXToolbox/ZXTimer (2.0.6)
-  - ZXToolbox/ZXToastView (2.0.6)
-  - "ZXToolbox/ZXToolbox+Macros (2.0.6)":
+  - ZXToolbox/ZXPopoverView (2.0.7)
+  - ZXToolbox/ZXPopoverWindow (2.0.7)
+  - ZXToolbox/ZXQRCodeGenerator (2.0.7)
+  - ZXToolbox/ZXQRCodeReader (2.0.7)
+  - ZXToolbox/ZXQRCodeScanner (2.0.7)
+  - ZXToolbox/ZXScriptMessageHandler (2.0.7)
+  - ZXToolbox/ZXScrollLabel (2.0.7)
+  - ZXToolbox/ZXStackView (2.0.7)
+  - ZXToolbox/ZXTabBar (2.0.7)
+  - ZXToolbox/ZXTabBarController (2.0.7)
+  - ZXToolbox/ZXTagView (2.0.7)
+  - ZXToolbox/ZXTimer (2.0.7)
+  - ZXToolbox/ZXToastView (2.0.7)
+  - "ZXToolbox/ZXToolbox+Macros (2.0.7)":
     - "ZXToolbox/NSDate+ZXToolbox"
-  - ZXToolbox/ZXURLProtocol (2.0.6)
-  - ZXToolbox/ZXURLSession (2.0.6)
+  - ZXToolbox/ZXURLProtocol (2.0.7)
+  - ZXToolbox/ZXURLSession (2.0.7)
 
 DEPENDENCIES:
   - AFNetworking
@@ -276,7 +282,7 @@ SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
   AVOSCloud: 3148cbb1d05be4e479cffa206f147ef09a470fdf
-  BDToolKit: 79ba2f77f55a6958c6cc0ec215df0348ca498498
+  BDToolKit: 0e2739918cb05fc3ac11a8267e0be6b9dc5cb859
   FFToast: 60e0f3c9fd8fc473205015055ee39cd200404e01
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   LeanCloud: 62a04e0e187f075d2c6918e7aaade1a1de8288e0
@@ -289,7 +295,7 @@ SPEC CHECKSUMS:
   Starscream: 08172b481e145289c4930cb567230fb55897cfa4
   SwiftProtobuf: 241400280f912735c1e1b9fe675fdd2c6c4d42e2
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
-  ZXToolbox: a53599b105e86694e28637e27d43a55c844e7140
+  ZXToolbox: 51ab6b5bb9b66f466120c61901c0eac0ffe29053
 
 PODFILE CHECKSUM: 2fc59005d07e1e8b0a9d27686143605391a0dbb2
 
